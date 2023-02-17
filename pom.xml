@@ -3,17 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.locke-chappel.oss</groupId>
+        <groupId>io.github.locke-chappel.oss</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0</version>
     </parent>
     
-    <groupId>com.github.locke-chappel.oss.app</groupId>
+    <groupId>io.github.locke-chappel.oss.app</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>OSS Parent Application POM</name>
-    <description>Application type project parent POM for com.github.locke-chappel.oss projects</description>
+    <description>Application type project parent POM for io.github.locke-chappel.oss projects</description>
     <url>https://github.com/locke-chappel/oss-app-parent</url>
 
     <licenses>
@@ -60,11 +60,11 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- com.github.locke-chappel.oss.commons -->
+            <!-- io.github.locke-chappel.oss.commons -->
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>bom</artifactId>
-                <version>${com.github.lc.oss.commons.bom.version}</version>
+                <version>${io.github.lc.oss.commons.bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
