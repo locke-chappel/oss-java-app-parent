@@ -5,12 +5,12 @@
     <parent>
         <groupId>io.github.locke-chappel.oss</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
     </parent>
     
     <groupId>io.github.locke-chappel.oss.app</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packaging>pom</packaging>
     <name>OSS Parent Application POM</name>
     <description>Application type project parent POM for io.github.locke-chappel.oss projects</description>
