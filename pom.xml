@@ -238,8 +238,8 @@
             </dependency>
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
-                <artifactId>htmlunit-driver</artifactId>
-                <version>${org.seleniumhq.selenium.htmlunit-driver.version}</version>
+                <artifactId>htmlunit3-driver</artifactId>
+                <version>${org.seleniumhq.selenium.htmlunit3-driver.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
