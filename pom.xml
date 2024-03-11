@@ -7,14 +7,14 @@
         <artifactId>parent</artifactId>
         <version>1.0.10</version>
     </parent>
-    
+
     <groupId>io.github.locke-chappel.oss.app</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.10</version>
     <packaging>pom</packaging>
     <name>OSS Parent Application POM</name>
     <description>Application type project parent POM for io.github.locke-chappel.oss projects</description>
-    <url>https://github.com/locke-chappel/oss-app-parent</url>
+    <url>https://github.com/locke-chappel/oss-java-app-parent</url>
 
     <licenses>
         <license>
@@ -29,18 +29,18 @@
             <name>Locke-Chappel</name>
         </developer>
     </developers>
-  
+
     <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/locke-chappel/oss-app-parent/issues</url>
     </issueManagement>
-    
+
     <scm>
         <connection>scm:git:git://github.com/locke-chappel/oss-app-parent.git</connection>
         <developerConnection>scm:git:ssh://github.com:locke-chappel/oss-app-parent.git</developerConnection>
         <url>https://github.com/locke-chappel/oss-app-parent</url>
     </scm>
-    
+
     <build>
         <pluginManagement>
             <plugins>
@@ -75,28 +75,28 @@
                 <artifactId>aspectjweaver</artifactId>
                 <version>${org.aspectj.version}</version>
             </dependency>
-            
+
             <!-- Apache Commons -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${org.apache.commons.version}</version>
             </dependency>
-            
+
             <!-- Database -->
             <dependency>
                 <groupId>com.h2database</groupId>
                 <artifactId>h2</artifactId>
                 <version>${com.h2database.version}</version>
             </dependency>
-            
+
             <!-- Logging -->
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${org.slf4j.verion}</version>
             </dependency>
-            
+
             <!-- Jackson -->
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
@@ -113,7 +113,7 @@
                 <artifactId>jackson-dataformat-xml</artifactId>
                 <version>${com.fasterxml.jackson.version}</version>
             </dependency>
-            
+
             <!-- Persistence -->
             <dependency>
                 <groupId>org.hibernate.orm</groupId>
@@ -125,14 +125,14 @@
                 <artifactId>hibernate-validator</artifactId>
                 <version>${org.hibernate.validator.version}</version>
             </dependency>
-            
+
             <!-- Scheduling -->
             <dependency>
                 <groupId>org.quartz-scheduler</groupId>
                 <artifactId>quartz</artifactId>
                 <version>${org.quartz-scheduler.version}</version>
             </dependency>
-                   
+
             <!-- Servlet -->
             <dependency>
                 <groupId>jakarta.servlet</groupId>
@@ -140,7 +140,7 @@
                 <version>${jakarta.servlet.version}</version>
                 <scope>provided</scope>
             </dependency>
-            
+
             <!-- Spring -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -156,6 +156,11 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-jpa</artifactId>
+                <version>${org.springframework.boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-quartz</artifactId>
                 <version>${org.springframework.boot.version}</version>
             </dependency>
             <dependency>
@@ -198,7 +203,7 @@
                 <artifactId>jaxb-runtime</artifactId>
                 <version>${org.glassfish.jaxb.version}</version>
             </dependency>
-            
+
             <!-- Testing -->
             <dependency>
                 <groupId>org.apache.httpcomponents.client5</groupId>
